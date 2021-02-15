@@ -5,4 +5,4 @@ if node -e "process.exit(($npm_config_argv).original.length > 0 && ($npm_config_
   exit 0;
 fi
 
-npm test && npm run build
+npm install && npm test && npm run build
